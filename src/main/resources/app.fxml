@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="240.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bwg.Controller">
+    <children>
+        <ToggleButton fx:id="exit" layoutX="421.0" mnemonicParsing="false" onAction="#onExit" prefHeight="25.0" prefWidth="32.0" styleClass="gui-exit-button" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0" />
+        <ToggleButton layoutX="389.0" mnemonicParsing="false" onAction="#onMin" prefHeight="24.0" prefWidth="32.0" styleClass="gui-min-button" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0" />
+      <Label layoutX="391.0" layoutY="220.0" text="telegram: @birewallg">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <TextField layoutX="63.0" layoutY="55.0" prefHeight="25.0" prefWidth="61.0" />
+      <Label layoutX="36.0" layoutY="57.0" text="5 *">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="57.0" prefHeight="17.0" prefWidth="18.0" text="=">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="59.0" text="0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
