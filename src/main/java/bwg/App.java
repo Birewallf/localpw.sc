@@ -12,7 +12,7 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load( getClass().getClassLoader().getResource("app.fxml"));
-        primaryStage.setTitle("CUBE");
+        primaryStage.setTitle("SC");
 
         primaryStage.initStyle(StageStyle.UNDECORATED);
         final Delta dragDelta = new Delta(0, 0);
